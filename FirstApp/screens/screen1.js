@@ -11,7 +11,6 @@ export default class Screen1 extends React.Component {
     return (
       <ScrollView style={styles.container}>
         <Button title='Move to Links' onPress={()=> {this.props.navigation.navigate('Links')}}/>
-        <Button title='Back' onPress={()=> {this.props.navigation.pop()}}/>
       </ScrollView>
     );
   }
